@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Project</title>
+    <link rel="stylesheet" href="Weath.css">
+</head>
+<body onload="getData()">
+    <div class="box">
+        <input id="search" class="search" type="text" value="Ranchi" onchange="getData()">
+        <div>
+            <h1 id="temp"><sup>o</sup></h1>
+            <p style="font-size: 30px; text-align: center; color: yellow;">Degree Celcius</p>
+            
+            <p class="data">Wind Speed :- <span id="ws">15</span></p>
+            <p class="data">Humidity :- <span id="hmdty">15</span></p>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <img width="175px" src="wea.png" alt="">
+        </div>
+    </div>
+    <script src="Weat.js"></script>
+</body>
+</html>
