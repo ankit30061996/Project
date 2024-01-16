@@ -1,1 +1,1 @@
-This is my first project based on HTML, CSS.
+This is my first project based on HTML, CSS and JavaScript.
